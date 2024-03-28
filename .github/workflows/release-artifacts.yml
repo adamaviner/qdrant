@@ -20,8 +20,8 @@ jobs:
           - target: aarch64-unknown-linux-musl
             os: ubuntu-latest
           
-          - TARGET: armv7-unknown-linux-musleabihf # raspberry pi 2-3-4, not tested
-            OS: ubuntu-latest
+          - target: armv7-unknown-linux-musleabihf # raspberry pi 2-3-4, not tested
+            os: ubuntu-latest
     runs-on: ${{ matrix.os }}
     steps:
       - name: Install dependencies
