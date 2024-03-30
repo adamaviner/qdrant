@@ -7,7 +7,7 @@ on:
     types: [published]
 
 env:
-  CARGO_CFG_TARGET_FEATURE: "sse"
+  CARGO_CFG_TARGET_FEATURE: " "
 jobs:
   build-linux-binaries:
     strategy:
